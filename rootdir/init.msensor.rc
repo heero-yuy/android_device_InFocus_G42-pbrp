@@ -1,0 +1,8 @@
+# FIH msensor rc
+
+on init
+
+service memsicd3516x /system/bin/memsicd3516x
+    user system
+    group system
+    class core
