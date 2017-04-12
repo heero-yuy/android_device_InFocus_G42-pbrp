@@ -1,0 +1,14 @@
+[
+  {
+    "remote": "github",
+    "repository": "systemlessandroiddev/android_vendor_InFocus_G42",
+    "target_path": "vendor/InFocus/G42",
+    "branch": "cm-14.1.1"
+  },
+  {
+    "remote": "github",
+    "repository": "systemlessandroiddev/android_kernel_InFocus_G42",
+    "target_path": "kernel/InFocus/G42",
+    "branch": "cm-14.1.1"
+  }
+] 

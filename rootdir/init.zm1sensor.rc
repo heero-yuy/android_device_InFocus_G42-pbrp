@@ -1,0 +1,8 @@
+# FIH gsensor rc
+
+on init
+
+service bmx056d /system/bin/bmx056d
+    user system
+    group system
+    class core
