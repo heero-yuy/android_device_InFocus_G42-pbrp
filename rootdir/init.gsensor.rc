@@ -1,8 +1,0 @@
-# FIH gsensor rc
-
-on init
-
-service memsicp /system/bin/memsicp
-    user system
-    group system
-    class core
