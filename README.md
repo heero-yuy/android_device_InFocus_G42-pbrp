@@ -27,14 +27,11 @@ Front Camera | 13MP, Int. 13MP
 ---
 
 #  Now Starts
-===============
  Add Omni Source or Minimal TWRP Source
  
- ==============
- repo sync git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-6.0
+ `repo sync git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-6.0`
  
 #  Add a Local Manifest
-========================
 Copy This: To `.repo/local_manifests/device_G42.xml`
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -47,4 +44,4 @@ Then Run `repo sync`
 ```sh
 . build/envsetup.sh && lunch omni_G42-userdebug && mka -j# recoveryimage 
 ```
-# = No. of CPU of your PC
+`# = No. of CPU of your PC'
