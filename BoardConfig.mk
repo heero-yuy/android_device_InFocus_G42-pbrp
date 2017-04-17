@@ -53,8 +53,6 @@ TARGET_PROVIDES_INIT_RC := true
 # System.prop
 TARGET_SYSTEM_PROP := $(LOCAL_PATH)/system.prop
 
-# Include
-TARGET_SPECIFIC_HEADER_PATH += $(DEVICE_PATH)/include
 
 # Block based ota
 # see http://review.cyanogenmod.org/#/c/78849/1/core/Makefile
