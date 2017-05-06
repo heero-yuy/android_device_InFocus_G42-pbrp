@@ -36,7 +36,7 @@ Copy This: To `.repo/local_manifests/device_G42.xml`
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<project path="device/InFocus/G42" name="systemlessandroiddev/android_device_InFocus_G42" remote="github" revision="twrp-6.0" groups="pdk" />
+	<project path="device/InFocus/G42" name="AndroiableDroid/android_device_InFocus_G42" remote="github" revision="twrp-6.0" groups="pdk" />
 </manifest>
 ```
 Then Run `repo sync` 
@@ -45,3 +45,8 @@ Then Run `repo sync`
 . build/envsetup.sh && lunch omni_G42-userdebug && mka -j# recoveryimage 
 ```
 `# = No. of CPU of your PC'
+
+### Thanks to:
+ * ccsysadmin
+ * TeamWin
+ * Team M.A.D.
