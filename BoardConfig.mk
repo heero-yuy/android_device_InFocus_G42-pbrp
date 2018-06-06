@@ -58,4 +58,5 @@ TARGET_SYSTEM_PROP := $(LOCAL_PATH)/system.prop
 # see http://review.cyanogenmod.org/#/c/78849/1/core/Makefile
 BLOCK_BASED_OTA := false
 
-DEVICE_HAS_2GB_VARIANT := true
+#Official
+PB_OFFICIAL := true
