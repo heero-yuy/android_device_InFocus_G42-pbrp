@@ -48,21 +48,3 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Vendor product configurations
 $(call inherit-product-if-exists, vendor/InFocus/G42/G42-vendor.mk)
-
-ADDITIONAL_DEFAULT_PROPERTIES += \
-         ro.adb.secure=1\
-         persist.service.acm.enable=0\
-         ro.secure=1\
-         security.perf_harden=1\
-         ro.allow.mock.location=0\
-         ro.debuggable=0\
-         ro.zygote=zygote64_32\
-         dalvik.vm.image-dex2oat-Xms=64m\
-         dalvik.vm.image-dex2oat-Xmx=64m\
-         dalvik.vm.dex2oat-Xms=64m\
-         dalvik.vm.dex2oat-Xmx=512m\
-         ro.dalvik.vm.native.bridge=0\
-         debug.atrace.tags.enableflags=0\
-         persist.sys.usb.config=mtp,mass_storage\
-         ro.mount.fs=EXT4\
-         camera.disable_zsl_mode=1
