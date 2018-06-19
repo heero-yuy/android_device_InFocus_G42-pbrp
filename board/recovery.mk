@@ -35,8 +35,6 @@ TW_NO_USB_STORAGE := true
 BOARD_USE_FRAMEBUFFER_ALPHA_CHANNEL := true
 TARGET_DISABLE_TRIPLE_BUFFERING := false
 
-
-
-# Time Zone data for Recovery
-PRODUCT_COPY_FILES += \
-    bionic/libc/zoneinfo/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata
+#FS
+TW_INCLUDE_FUSE_EXFAT := true
+TW_INCLUDE_NTFS_3G := true
