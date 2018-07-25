@@ -59,4 +59,5 @@ TARGET_SYSTEM_PROP := $(LOCAL_PATH)/system.prop
 BLOCK_BASED_OTA := false
 
 #Official
+PB_GO := true
 PB_OFFICIAL := true
