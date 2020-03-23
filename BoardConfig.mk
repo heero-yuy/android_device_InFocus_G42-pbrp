@@ -57,7 +57,3 @@ TARGET_SYSTEM_PROP := $(LOCAL_PATH)/system.prop
 # Block based ota
 # see http://review.cyanogenmod.org/#/c/78849/1/core/Makefile
 BLOCK_BASED_OTA := false
-
-#Official
-PB_GO := true
-PB_OFFICIAL := true
